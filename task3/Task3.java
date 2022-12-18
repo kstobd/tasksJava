@@ -56,7 +56,7 @@ public class Task3 {
    }
 
    public static boolean isValidHexCode(String code) {
-      return code.toLowerCase(Locale.ENGLISH).matches("#[a-f\\d]{6}");
+      return code.toLowerCase(Locale.ENGLISH).matches("^#[a-f\\d]{6}");
    }
 
    public static boolean same(int[] arr1, int[] arr2) {
